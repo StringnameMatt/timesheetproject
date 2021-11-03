@@ -1,7 +1,7 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="light">
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/places/tabs/offers"></ion-back-button>
+      <ion-back-button [defaultHref]="'/places/tabs/offers/' + place.id"></ion-back-button>
     </ion-buttons>
     <ion-title>Edit Employee</ion-title>
   </ion-toolbar>

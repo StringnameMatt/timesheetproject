@@ -33,6 +33,12 @@ export class PlacesService {
       'Mike Dolato',
       'Plumber',
       'https://st.depositphotos.com/1787196/2514/i/600/depositphotos_25142717-stock-photo-3d-cartoon-cute-yellow-ball.jpg'
+    ),
+    new Place(
+      'p5',
+      'Brandon Adams',
+      'Electrician',
+      'https://www.pngitem.com/pimgs/m/35-357435_thumbs-up-clipart-free-happy-smiley-emoticon-face.png'
     )
   ];
 
